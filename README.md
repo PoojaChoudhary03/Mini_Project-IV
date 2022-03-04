@@ -1,5 +1,4 @@
-# Mini_Project-IV
-## Loan Status Prediction
+# Loan Status Prediction
 
 ### Introduction
 According to Canadian Anti Fraud Centre, Loan Fraud was among top 10 frauds in 2021, in which 570 cases were registered and there were 434 victims who lost total of $6.9 million dollars.
