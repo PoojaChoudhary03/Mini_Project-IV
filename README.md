@@ -61,6 +61,28 @@ The goal here is to create the pipeline that will take one row of our dataset an
 
 `pipeline.predict(x)`
 
-## 6. Deploy your model to cloud and test it with PostMan, BASH or Python
+## 6. Deploy model to cloud and test it with PostMan, BASH or Python
+
+### Conclusion
+Now, coming to the scope of improvements and modifications, We can improve the accuracy score, by doing some of the following, though it is not guaranteed, that the results will change for the better.
+
+1)Taking a bigger dataset with versatile and large training data. But keep in mind while taking a large dataset, the bigger the dataset, the more processing time will the execution take.
+
+2) Checking for various algorithms. There is no such convention, that we must use a specific algorithm, for a specific problem set. We chose the algorithm based on the type of dataset. You might even have to opt for the method of “trial & error”.
+
+The practicality of this Project
+Now let us refer to the elephant in the room. Is the above code ready to be deployed in the banking systems?
+
+A straightforward answer will be NO.
+
+The reasons are:
+
+- I have used an extremely small dataset. Thus the training dataset is not enough for the model to predict for the various kinds of people that dwell on this earth, with various backgrounds.
+
+-  Real-life scenarios are quite different than what we discuss in theory. There arise many exceptions, that need to be dealt with, and even, the decision-making supremacy, whether a person can be sanctioned a loan or not, cannot be given to a machine that predicts on the basis of these few lines of codes. Humans do have to intervene in those exceptional cases.
+
+But does this mean, all that we did was a sheer waste?
+
+Well, No again. We can use this concept to act as a parallel decision-making feature in the banks, that might be used to second the decisions of the bank people. But it must not be used solely, without the intervention of humans.
 
 
